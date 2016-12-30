@@ -1,0 +1,16 @@
+1483095767043	geckodriver	INFO	Listening on 127.0.0.1:49923
+1483095769044	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.xYTe1TRAxMcs
+1483095769050	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1483095769062	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49929
+1483095769713	Marionette	INFO	Listening on port 49929
+1483095770702	Marionette	INFO	startBrowser e9d41d38-0c56-4234-9663-0e46e2b8851e
+1483095830726	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1483095880291	geckodriver	INFO	Listening on 127.0.0.1:49946
+1483095882299	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.ziKIHOrgycMo
+1483095882312	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1483095882325	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49952
+1483095882912	Marionette	INFO	Listening on port 49952
+[Child 4964] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4964] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1483095884011	Marionette	INFO	startBrowser 2631d873-03a4-493a-938e-072039cff4ba
+1483095944033	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
