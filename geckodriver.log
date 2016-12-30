@@ -14,3 +14,53 @@
 [Child 4964] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 1483095884011	Marionette	INFO	startBrowser 2631d873-03a4-493a-938e-072039cff4ba
 1483095944033	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+[Child 7564] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7564] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1483097970861	geckodriver	INFO	Listening on 127.0.0.1:49688
+1483097972876	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.lfaqrIik6Lbr
+1483097972892	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1483097972923	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49694
+1483097973859	Marionette	INFO	Listening on port 49694
+1483097975131	Marionette	INFO	startBrowser 13ec7620-6ce9-4083-b52e-d02719adc075
+1483098035162	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+[Child 6500] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6500] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1483098780415	geckodriver	INFO	Listening on 127.0.0.1:49727
+1483098782426	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.2xwWaDDQj6U4
+1483098782440	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1483098782456	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49733
+1483098783097	Marionette	INFO	Listening on port 49733
+1483098784146	Marionette	INFO	startBrowser 60e91ddc-3fad-49a9-aad2-42779b3b1a74
+[Child 1160] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6892] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6892] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1483099078476	geckodriver	INFO	Listening on 127.0.0.1:49750
+1483099080472	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.UMyrl0MT3yIQ
+1483099080477	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1483099080484	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49756
+1483099081095	Marionette	INFO	Listening on port 49756
+1483099082183	Marionette	INFO	startBrowser 71d85cb7-303a-45db-aa83-a1f1a6d14754
+1483099142206	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+ile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.hOhxAoBL84Ln
+1483099084363	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1483099084371	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49769
+1483099084998	Marionette	INFO	Listening on port 49769
+[Child 6660] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6660] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1483099086023	Marionette	INFO	startBrowser c9340611-b847-4bf4-9f24-954b3d209561
+1483099136633	geckodriver	INFO	Listening on 127.0.0.1:49789
+1483099138632	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.LUETkTfHKg5t
+1483099138638	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1483099138645	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49795
+1483099139243	Marionette	INFO	Listening on port 49795
+[Child 6920] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6920] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1483099140292	Marionette	INFO	startBrowser c75d3f09-8ba6-4bd3-8ad2-61d0f79f6e6d
+[Child 5540] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1483099308786	geckodriver	INFO	Listening on 127.0.0.1:49813
+1483099310796	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.d63Xn60iATQF
+1483099310810	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1483099310828	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49819
+1483099311477	Marionette	INFO	Listening on port 49819
+1483099312537	Marionette	INFO	startBrowser fbacd460-574f-4b34-8d43-cbbffbedfb82
+[Child 988] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
