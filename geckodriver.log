@@ -96,3 +96,17 @@ ile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.hO
 
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
 [Child 6428] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484381337329	geckodriver	INFO	Listening on 127.0.0.1:49794
+1484381339333	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.P1bHlFzI0dtP
+1484381339349	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484381339365	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49800
+1484381340001	Marionette	INFO	Listening on port 49800
+1484381341167	Marionette	INFO	startBrowser e08c0999-498e-4cf9-8e69-4739301acb77
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 2316] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
