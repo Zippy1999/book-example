@@ -24,11 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b99f2b88-04c2-4cd5-b2c0-b6670c7e0aa4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangotdd/tests.py" afterPath="$PROJECT_DIR$/djangotdd/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangotdd/views.py" afterPath="$PROJECT_DIR$/djangotdd/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functional_tests.py" afterPath="$PROJECT_DIR$/functional_tests.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geckodriver.log" afterPath="$PROJECT_DIR$/geckodriver.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +38,7 @@
     <SUITE FILE_PATH="coverage/dtdd1$manage.coverage" NAME="manage Coverage Results" MODIFIED="1483098074014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dtdd1$Test__templates_home_html.coverage" NAME="Test: templates.home.html Coverage Results" MODIFIED="1484478324508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/dtdd1$functional_tests.coverage" NAME="functional_tests Coverage Results" MODIFIED="1483098780183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/dtdd1$Unittests_in_functional_tests.coverage" NAME="Unittests in functional_tests Coverage Results" MODIFIED="1484479967877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dtdd1$Unittests_in_functional_tests.coverage" NAME="Unittests in functional_tests Coverage Results" MODIFIED="1484480351815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dtdd1$Test__djangotdd_tests.coverage" NAME="Test: djangotdd.tests Coverage Results" MODIFIED="1484479823075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/dtdd1$views.coverage" NAME="views Coverage Results" MODIFIED="1484378661647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangotdd" />
   </component>
@@ -80,8 +77,8 @@
       <file leaf-file-name="functional_tests.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functional_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+            <state relative-caret-position="370">
+              <caret line="51" column="81" lean-forward="false" selection-start-line="51" selection-start-column="81" selection-end-line="51" selection-end-column="81" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -681,7 +678,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484382142954</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Prior to refactor">
+      <created>1484480035997</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1484480035997</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -690,9 +694,6 @@
     </history-entry>
     <history-entry file="Test__djangotdd_tests - 2017.01.15 at 11h 30m 24s.xml">
       <configuration name="Test: djangotdd.tests" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Unittests_in_functional_tests - 2017.01.15 at 11h 20m 20s.xml">
-      <configuration name="Unittests in functional_tests" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_functional_tests - 2017.01.15 at 11h 21m 24s.xml">
       <configuration name="Unittests in functional_tests" configurationId="tests" />
@@ -713,6 +714,9 @@
       <configuration name="Unittests in functional_tests" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_functional_tests - 2017.01.15 at 11h 33m 02s.xml">
+      <configuration name="Unittests in functional_tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_functional_tests - 2017.01.15 at 11h 39m 19s.xml">
       <configuration name="Unittests in functional_tests" configurationId="tests" />
     </history-entry>
   </component>
@@ -763,7 +767,8 @@
     <MESSAGE value="Functional test now checks we can input a to-do item" />
     <MESSAGE value="Refactor home page to use a template" />
     <MESSAGE value="Front page HTML now generated from a template" />
-    <option name="LAST_COMMIT_MESSAGE" value="Front page HTML now generated from a template" />
+    <MESSAGE value="Prior to refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prior to refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1090,8 +1095,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functional_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        <state relative-caret-position="370">
+          <caret line="51" column="81" lean-forward="false" selection-start-line="51" selection-start-column="81" selection-end-line="51" selection-end-column="81" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
