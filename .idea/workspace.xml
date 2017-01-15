@@ -24,8 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b99f2b88-04c2-4cd5-b2c0-b6670c7e0aa4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functional_tests.py" afterPath="$PROJECT_DIR$/functional_tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geckodriver.log" afterPath="$PROJECT_DIR$/geckodriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangotdd/models.py" afterPath="$PROJECT_DIR$/djangotdd/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djangotdd/tests.py" afterPath="$PROJECT_DIR$/djangotdd/tests.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,7 +39,7 @@
     <SUITE FILE_PATH="coverage/dtdd1$Test__templates_home_html.coverage" NAME="Test: templates.home.html Coverage Results" MODIFIED="1484478324508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/dtdd1$functional_tests.coverage" NAME="functional_tests Coverage Results" MODIFIED="1483098780183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/dtdd1$Unittests_in_functional_tests.coverage" NAME="Unittests in functional_tests Coverage Results" MODIFIED="1484480351815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/dtdd1$Test__djangotdd_tests.coverage" NAME="Test: djangotdd.tests Coverage Results" MODIFIED="1484479823075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/dtdd1$Test__djangotdd_tests.coverage" NAME="Test: djangotdd.tests Coverage Results" MODIFIED="1484481692633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/dtdd1$views.coverage" NAME="views Coverage Results" MODIFIED="1484378661647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/djangotdd" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -74,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functional_tests.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functional_tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functional_tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="370">
@@ -99,11 +99,21 @@
       <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/djangotdd/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="396">
+              <caret line="52" column="70" lean-forward="false" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/djangotdd/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,6 +160,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>first</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>second</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -157,10 +175,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/dtdd1/urls.py" />
-        <option value="$PROJECT_DIR$/djangotdd/tests.py" />
         <option value="$PROJECT_DIR$/djangotdd/views.py" />
         <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/functional_tests.py" />
+        <option value="$PROJECT_DIR$/djangotdd/tests.py" />
+        <option value="$PROJECT_DIR$/djangotdd/models.py" />
       </list>
     </option>
   </component>
@@ -246,7 +265,7 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in functional_tests">
+  <component name="RunManager" selected="Django tests.Test: djangotdd.tests">
     <configuration default="false" name="Test: djangotdd.tests" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -617,8 +636,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in functional_tests" />
-        <item index="1" class="java.lang.String" itemvalue="Django tests.Test: djangotdd.tests" />
+        <item index="0" class="java.lang.String" itemvalue="Django tests.Test: djangotdd.tests" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in functional_tests" />
         <item index="2" class="java.lang.String" itemvalue="Django tests.Test: templates.home.html" />
         <item index="3" class="java.lang.String" itemvalue="Python.views" />
         <item index="4" class="java.lang.String" itemvalue="Python.functional_tests" />
@@ -685,27 +704,34 @@
       <option name="project" value="LOCAL" />
       <updated>1484480035997</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Refactor of FT">
+      <created>1484480378389</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1484480378389</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test__djangotdd_tests - 2017.01.15 at 11h 22m 50s.xml">
+    <history-entry file="Test__djangotdd_tests - 2017.01.15 at 11h 48m 12s.xml">
       <configuration name="Test: djangotdd.tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__djangotdd_tests - 2017.01.15 at 11h 30m 24s.xml">
+    <history-entry file="Test__djangotdd_tests - 2017.01.15 at 11h 49m 03s.xml">
       <configuration name="Test: djangotdd.tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Unittests_in_functional_tests - 2017.01.15 at 11h 21m 24s.xml">
-      <configuration name="Unittests in functional_tests" configurationId="tests" />
+    <history-entry file="Test__djangotdd_tests - 2017.01.15 at 11h 49m 22s.xml">
+      <configuration name="Test: djangotdd.tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Unittests_in_functional_tests - 2017.01.15 at 11h 23m 05s.xml">
-      <configuration name="Unittests in functional_tests" configurationId="tests" />
+    <history-entry file="Test__djangotdd_tests - 2017.01.15 at 11h 51m 57s.xml">
+      <configuration name="Test: djangotdd.tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Unittests_in_functional_tests - 2017.01.15 at 11h 23m 48s.xml">
-      <configuration name="Unittests in functional_tests" configurationId="tests" />
+    <history-entry file="Test__djangotdd_tests - 2017.01.15 at 11h 53m 01s.xml">
+      <configuration name="Test: djangotdd.tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Unittests_in_functional_tests - 2017.01.15 at 11h 24m 24s.xml">
-      <configuration name="Unittests in functional_tests" configurationId="tests" />
+    <history-entry file="Test__djangotdd_tests - 2017.01.15 at 12h 01m 33s.xml">
+      <configuration name="Test: djangotdd.tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
     <history-entry file="Unittests_in_functional_tests - 2017.01.15 at 11h 30m 37s.xml">
       <configuration name="Unittests in functional_tests" configurationId="tests" />
@@ -735,12 +761,12 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39694658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19539584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -768,7 +794,8 @@
     <MESSAGE value="Refactor home page to use a template" />
     <MESSAGE value="Front page HTML now generated from a template" />
     <MESSAGE value="Prior to refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prior to refactor" />
+    <MESSAGE value="Refactor of FT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor of FT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1065,16 +1092,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangotdd/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/djangotdd/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -1100,6 +1117,24 @@
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangotdd/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="52" column="70" lean-forward="false" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangotdd/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
