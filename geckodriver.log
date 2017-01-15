@@ -563,3 +563,198 @@ ile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.hO
 [Child 9056] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 1484488111864	Marionette	INFO	startBrowser 836ae257-80ea-4d6e-9153-09b99d7268a0
 [Child 5336] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484489062361	geckodriver	INFO	Listening on 127.0.0.1:53802
+1484489064369	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.5fMeTMoiiENU
+1484489064384	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484489064402	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53808
+1484489065081	Marionette	INFO	Listening on port 53808
+1484489079107	Marionette	INFO	startBrowser 17c9533a-ef1c-45dc-8ab1-b784b2810edc
+[Child 4632] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484489181769	geckodriver	INFO	Listening on 127.0.0.1:53843
+1484489183776	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.DNrLzy345Cgl
+1484489183791	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484489183808	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53849
+1484489184477	Marionette	INFO	Listening on port 53849
+[Child 3560] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3560] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1484489199263	Marionette	INFO	startBrowser 125dfe34-e50b-4398-8b89-f25347b625b1
+[Child 9136] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484489712619	geckodriver	INFO	Listening on 127.0.0.1:54070
+1484489714625	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.RieT0kR4I0Hp
+1484489714639	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484489714656	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54077
+1484489715370	Marionette	INFO	Listening on port 54077
+[Child 7892] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7892] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1484489721779	Marionette	INFO	startBrowser ae2f90a2-9aae-4d75-a6d3-3ff4ed64be9d
+[Child 5688] WARNING: pipe error: 232: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 5688] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484489823780	geckodriver	INFO	Listening on 127.0.0.1:54108
+1484489825787	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.4YGW0kxnmDsg
+1484489825805	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484489825823	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54114
+1484489826459	Marionette	INFO	Listening on port 54114
+[Child 10552] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10552] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1484489829611	Marionette	INFO	startBrowser d7a5618c-210c-4ca9-9016-a523fd7213d4
+[Child 6228] WARNING: pipe error: 232: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 6228] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484492117705	geckodriver	INFO	Listening on 127.0.0.1:54371
+1484492119710	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.KJ4l02FQRCbl
+1484492119724	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484492119739	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54377
+1484492120369	Marionette	INFO	Listening on port 54377
+[Child 10316] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10316] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1484492124604	Marionette	INFO	startBrowser 355859a9-df40-4c00-84a5-75b6185be4b8
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8228] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484492178805	geckodriver	INFO	Listening on 127.0.0.1:54404
+1484492180811	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.KXzuTzepwAe2
+1484492180829	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484492180847	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54410
+1484492181516	Marionette	INFO	Listening on port 54410
+1484492192383	Marionette	INFO	startBrowser 9cd035f2-947b-4cbc-b4f3-975b8d43d9a4
+[Child 3128] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3128] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4856] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484492277609	geckodriver	INFO	Listening on 127.0.0.1:54453
+1484492279613	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.xd2113RfiItv
+1484492279629	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484492279647	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54459
+1484492280332	Marionette	INFO	Listening on port 54459
+[Child 6256] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1484492285624	Marionette	INFO	startBrowser 9aee803e-e4d8-4cb8-821d-80cb5dc111ed
+[Child 5676] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484492421520	geckodriver	INFO	Listening on 127.0.0.1:54543
+1484492423537	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.5qr3Ql8sx7Qy
+1484492423552	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484492423569	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54549
+1484492424210	Marionette	INFO	Listening on port 54549
+1484492432401	Marionette	INFO	startBrowser c520b718-4c9f-499a-8c32-d73129f3d44e
+[Child 4736] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484492691332	geckodriver	INFO	Listening on 127.0.0.1:54666
+1484492693337	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.qC6kMHd9MvQA
+1484492693353	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484492693369	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54672
+1484492693982	Marionette	INFO	Listening on port 54672
+1484492699849	Marionette	INFO	startBrowser d4ce27aa-2427-4deb-9ba9-bc6d2764fb4a
+[Child 8152] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484493140708	geckodriver	INFO	Listening on 127.0.0.1:54868
+1484493142716	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.MFaLgYopxddP
+1484493142735	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484493142752	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54874
+1484493143402	Marionette	INFO	Listening on port 54874
+[Child 10704] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10704] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1484493148783	Marionette	INFO	startBrowser 28201087-15ca-42d9-b9b7-aae847a868be
+1484493220214	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+[Child 8664] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484493593598	geckodriver	INFO	Listening on 127.0.0.1:54961
+1484493595605	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.cMAx9FQpC537
+1484493595625	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484493595644	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54967
+1484493596338	Marionette	INFO	Listening on port 54967
+1484493600516	Marionette	INFO	startBrowser 2367bb8f-880b-4b24-bcc7-0f50f7dbdc81
+[Child 7920] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484493672145	geckodriver	INFO	Listening on 127.0.0.1:55024
+1484493674143	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.pbee29apKkqF
+1484493674152	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484493674166	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55030
+1484493674905	Marionette	INFO	Listening on port 55030
+[Child 2780] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1484493679247	Marionette	INFO	startBrowser fc9c441f-262f-403e-8b86-77f0d61c6ae1
+[Child 1480] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484493714912	geckodriver	INFO	Listening on 127.0.0.1:55080
+1484493716920	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.hju3Qgp5D6nZ
+1484493716937	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484493716956	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55086
+1484493717583	Marionette	INFO	Listening on port 55086
+[Child 3744] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3744] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1484493721674	Marionette	INFO	startBrowser 3c552d70-7efd-4f1c-b0d5-628de78bb52e
+[Child 10440] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484493845375	geckodriver	INFO	Listening on 127.0.0.1:55169
+1484493847380	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.qaNLPZ4bP0E2
+1484493847400	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484493847418	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55175
+1484493848060	Marionette	INFO	Listening on port 55175
+[Child 11128] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11128] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1484493851429	Marionette	INFO	startBrowser 89b4fb97-a31d-49a8-aa41-3643773a7a09
+[Child 9748] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+1484493998197	geckodriver	INFO	Listening on 127.0.0.1:55246
+1484494000210	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.LvRgSbJq3kGU
+1484494000224	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484494000242	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55252
+1484494000906	Marionette	INFO	Listening on port 55252
+[Child 5940] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5940] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1484494007043	Marionette	INFO	startBrowser b120b23f-c1db-4601-80a6-048f307eaaf4
+[Child 10512] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484494016397	geckodriver	INFO	Listening on 127.0.0.1:55299
+1484494018401	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.QkJenGQEaPCv
+1484494018420	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484494018437	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55305
+1484494019124	Marionette	INFO	Listening on port 55305
+[Child 5192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1484494028694	Marionette	INFO	startBrowser 517dbded-d449-4614-8d00-f1cd685a399b
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5892] WARNING: pipe error: 232: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 5892] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484494094460	geckodriver	INFO	Listening on 127.0.0.1:55384
+1484494096461	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.sS1JOAPFZSXz
+1484494096475	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484494096493	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55390
+1484494097131	Marionette	INFO	Listening on port 55390
+1484494102858	Marionette	INFO	startBrowser f5357184-e3c0-46a9-b098-fdd1e61edbab
+[Child 8196] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484494112814	geckodriver	INFO	Listening on 127.0.0.1:55440
+1484494114799	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.KiwLJe1g8vTm
+1484494114812	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484494114830	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55446
+1484494115501	Marionette	INFO	Listening on port 55446
+[Child 3656] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3656] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1484494124746	Marionette	INFO	startBrowser 86a6a5e8-ba68-4d0b-95e9-ccb392053a24
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+[Child 9540] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
