@@ -554,3 +554,12 @@ ile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.hO
 [Child 5404] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 1484486613457	Marionette	INFO	startBrowser 9a3f6f6c-6d66-4d9f-b943-504e7396a2f2
 [Child 9076] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484488099040	geckodriver	INFO	Listening on 127.0.0.1:53637
+1484488101048	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.ffDsORhXPu4u
+1484488101063	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484488101082	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53643
+1484488101768	Marionette	INFO	Listening on port 53643
+[Child 9056] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9056] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1484488111864	Marionette	INFO	startBrowser 836ae257-80ea-4d6e-9153-09b99d7268a0
+[Child 5336] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
