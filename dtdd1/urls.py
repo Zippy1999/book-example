@@ -22,6 +22,6 @@ from djangotdd import views as app_views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', app_views.home_page, name='home'),
-    url(r'^lists/the-only-list-in-the-world/$', app_views.view_list, name='view_list'),
+    url(r'^lists/(.+)/$', app_views.view_list, name='view_list'),
     url(r'^lists/new$', app_views.new_list, name='new_list'),
 ]
