@@ -758,3 +758,28 @@ ile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.hO
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
 
+1484601601781	geckodriver	INFO	Listening on 127.0.0.1:50099
+1484601603828	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.xebG8kahFksC
+1484601603840	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484601603858	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50106
+1484601604716	Marionette	INFO	Listening on port 50106
+1484601605978	Marionette	INFO	startBrowser f8b48df9-72e6-47d5-b3bf-fa1752927b9d
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[Child 8968] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+1484601613471	geckodriver	INFO	Listening on 127.0.0.1:50158
+1484601615474	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.W3Pnq6K0VPU8
+1484601615491	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484601615506	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50164
+1484601616142	Marionette	INFO	Listening on port 50164
+[Child 8444] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8444] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1484601617162	Marionette	INFO	startBrowser 2a9eec7e-e6cb-4174-97ad-011a00321ecd
+[Child 9100] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
