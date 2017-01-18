@@ -89,10 +89,37 @@ class NewVisitorTest(LiveServerTestCase):
         self.assertIn('Buy milk', page_text)
 
         # Satisfied they both go back to sleep.
-        self.fail("Finish the test")
+
+        # Edith goes to the home page
+        self.browser.get(self.live_server_url)
+        time.sleep(2)
+        self.browser.set_window_size(1024,768)
+        time.sleep(3)
+        # She notices the input box is nicely centered
+        inputbox = self.browser.find_element_by_id('id_new_item')
+        self.assertAlmostEqual(
+            inputbox.location['x'] + inputbox.size['width'] / 2,
+            512,
+            delta=5
+        )
+        time.sleep(2)
+        # She starts a new list and sees the input is nicely
+        # centered there too
+        inputbox.send_keys('testing\n')
+        time.sleep(3)
+        inputbox = self.browser.find_element_by_id('id_new_item')
+        self.assertAlmostEqual(
+            inputbox.location['x'] + inputbox.size['width'] / 2,
+            512,
+            delta=5
+        )
+
+
+
+
         # Edith wonders whether the site will remember her list. Then she sees
         # that the site has generated a unique URL for her -- there is some
         # explanatory text to that effect.
         # She visits that URL - her to-do list is still there.
         # Satisfied, she goes back to sleep
-        self.browser.quit()
+
