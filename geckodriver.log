@@ -826,3 +826,27 @@ ile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.hO
 1484604124294	Marionette	INFO	startBrowser 75b96853-82e1-4f43-bc1b-76058985a94b
 [Child 8932] WARNING: pipe error: 232: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
 [Child 8932] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484768496961	geckodriver	INFO	Listening on 127.0.0.1:61700
+1484768498965	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.Cv12yVlIJUzg
+1484768498971	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484768498983	geckodriver::marionette	INFO	Connecting to Marionette on localhost:61707
+1484768499980	Marionette	INFO	Listening on port 61707
+1484768501398	Marionette	INFO	startBrowser a87ac620-14d8-41e3-8c68-6a805f4e75ff
+[Child 3596] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484768507813	geckodriver	INFO	Listening on 127.0.0.1:61762
+1484768509817	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.ZrKCccvVHPDN
+1484768509821	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484768509828	geckodriver::marionette	INFO	Connecting to Marionette on localhost:61769
+1484768510453	Marionette	INFO	Listening on port 61769
+1484768511487	Marionette	INFO	startBrowser aa45b138-3709-4d24-bf2b-e879c9cef9dd
+[Child 10912] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[Child 11228] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
