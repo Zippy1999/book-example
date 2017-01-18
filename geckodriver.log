@@ -920,3 +920,30 @@ ile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.hO
 1484770519076	Marionette	INFO	Listening on port 62674
 1484770520441	Marionette	INFO	startBrowser 1193d1cd-8494-4f2e-973c-647bf839fe51
 [Child 8160] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484771292245	geckodriver	INFO	Listening on 127.0.0.1:63426
+1484771294243	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.gXn0W7Cu65W1
+1484771294255	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484771294264	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63432
+1484771295308	Marionette	INFO	Listening on port 63432
+[Child 9192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1484771296901	Marionette	INFO	startBrowser 5996fb9d-90c4-40b3-8290-6a7346baf3de
+[Child 9112] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+1484771303781	geckodriver	INFO	Listening on 127.0.0.1:63505
+1484771305768	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.VpDzMkXFK5nt
+1484771305774	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484771305780	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63511
+1484771306587	Marionette	INFO	Listening on port 63511
+[Child 1448] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1448] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1484771307931	Marionette	INFO	startBrowser 7b0524a0-c963-4da8-a412-a37185ed7d61
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xFA0005,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4388] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
