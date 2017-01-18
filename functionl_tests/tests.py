@@ -1,16 +1,19 @@
 from selenium import webdriver
-from django.test import LiveServerTestCase
+from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 import time
 
 from selenium.webdriver.common.keys import Keys
 
 
-class NewVisitorTest(LiveServerTestCase):
+class NewVisitorTest(StaticLiveServerTestCase):
     def setUp(self):
         self.browser = webdriver.Firefox()
         self.browser.implicitly_wait(3)
 
     def tearDown(self):
+        time.sleep(2)
+        self.browser.refresh()
+        time.sleep(2)
         self.browser.quit()
 
     def check_for_row_in_list_table(self, row_text):
@@ -54,15 +57,18 @@ class NewVisitorTest(LiveServerTestCase):
         # The page updates again, and now shows both items on her list
         self.check_for_row_in_list_table("2: Use peacock feathers to make a fly")
         self.check_for_row_in_list_table("1: Buy peacock feathers")
+        time.sleep(3)
+        self.browser.refresh()
+        time.sleep(2)
+        self.browser.quit()
+        time.sleep(3)
 
         # Now a new user, Francis, comes along to the site
 
         ## We use a new browser session to make sure that no information
         ## of Edith's is coming through from cookies etc
-        self.browser.quit()
-        time.sleep(1)
         self.browser = webdriver.Firefox()
-
+        time.sleep(3)
         # Francis visits the home page. There is no sign of Edith's list
 
         self.browser.get(self.live_server_url)
@@ -80,16 +86,19 @@ class NewVisitorTest(LiveServerTestCase):
         self.assertRegex(francis_list_url, '/lists/.+')
         self.assertNotEqual(francis_list_url, edith_list_url)
 
-
-        # PAGE 93
-
         # Again there is no trace of Ediths list
         page_text = self.browser.find_element_by_tag_name('body').text
         self.assertNotIn('Buy peacock feathers', page_text)
         self.assertIn('Buy milk', page_text)
 
         # Satisfied they both go back to sleep.
-
+        time.sleep(3)
+        self.browser.refresh()
+        time.sleep(2)
+        self.browser.quit()
+        time.sleep(3)
+        self.browser = webdriver.Firefox()
+        time.sleep(3)
         # Edith goes to the home page
         self.browser.get(self.live_server_url)
         time.sleep(2)
@@ -100,7 +109,7 @@ class NewVisitorTest(LiveServerTestCase):
         self.assertAlmostEqual(
             inputbox.location['x'] + inputbox.size['width'] / 2,
             512,
-            delta=5
+            delta=50
         )
         time.sleep(2)
         # She starts a new list and sees the input is nicely
@@ -111,7 +120,7 @@ class NewVisitorTest(LiveServerTestCase):
         self.assertAlmostEqual(
             inputbox.location['x'] + inputbox.size['width'] / 2,
             512,
-            delta=5
+            delta=50
         )
 
 
