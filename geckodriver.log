@@ -1225,3 +1225,10 @@ ile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.hO
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x400003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
 
+1484943485428	geckodriver	INFO	Listening on 127.0.0.1:63640
+1484943487831	mozprofile::profile	INFO	Using profile path C:\Users\zippy\AppData\Local\Temp\rust_mozprofile.jq0z3DCKOU76
+1484943487836	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1484943487849	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63649
+1484943488776	Marionette	INFO	Listening on port 63649
+1484943490012	Marionette	INFO	startBrowser 66466e92-d6fc-44cc-b783-8a5fb0d4af44
+[Child 8792] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
