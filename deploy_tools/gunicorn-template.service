@@ -1,0 +1,11 @@
+
+[Unit]
+Description=Gunicorn server for book-example.staging.green.com
+Requires=sshd.service
+
+[Service]
+Restart=on-failure
+User=elspeth
+WorkingDirectory=/home/elspeth/sites/SITENAME/source
+ExecStart=/home/elspeth/sites/SITENAME/virtualenv/bin/gunicorn --bind unix:/tmp/SITENAME.socket dtdd1.wsgi:application
+
